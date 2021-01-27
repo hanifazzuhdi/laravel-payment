@@ -4,7 +4,7 @@
         <h3 class="text-3xl mb-8 font-bold text-center">Form Donasi</h3>
 
         <form action="#" id="donation_form">
-            <div class=" grid grid-cols-2 gap-4 mb-4">
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
                     <x-label for="donor_name" :value="__('Nama Donatur')" />
 
@@ -19,7 +19,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-4 mb-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
                     <x-label for="donation_type" :value="__('Tipe Donation')" />
 

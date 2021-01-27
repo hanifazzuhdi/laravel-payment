@@ -12,6 +12,9 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        'http://cf97da0dcb50.ngrok.io/midtrans/notification',
+        'http://cf97da0dcb50.ngrok.io',
+        'https://api.sandbox.midtrans.com/v2',
+        'https://app.sandbox.midtrans.com/snap/v1'
     ];
 }

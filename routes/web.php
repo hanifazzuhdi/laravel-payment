@@ -23,4 +23,7 @@ require __DIR__ . '/auth.php';
 
 // Route Declaration
 Route::get('/', [DonationController::class, 'index']);
+
+// Kirim api midtrans
 Route::post('/store', [DonationController::class, 'store'])->name('store');
+Route::post('midtrans/notification', [DonationController::class, 'notification']);
