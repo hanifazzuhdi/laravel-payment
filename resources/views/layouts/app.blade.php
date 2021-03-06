@@ -44,13 +44,6 @@
 
     <script>
         $(function () {
-
-            // $.ajaxSetup({
-            //     headers: {
-            //         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            //     }
-            // });
-
             $('#donation_form').submit(function (event) {
 
                 event.preventDefault();
